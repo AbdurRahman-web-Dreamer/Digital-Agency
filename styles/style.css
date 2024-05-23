@@ -149,10 +149,6 @@
    width: 25%;
    border-radius: 100px;
 }
-.profile-bio{
-   
-
-}
 .service-button{
   margin-left: 11px;
 }
@@ -162,3 +158,103 @@
   border-radius: 25px;
 }
 /* service section style end */
+
+/* appointment section style start */
+.appointment-container{
+   width: 75%;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   padding: 28px;
+   background-image:linear-gradient(45deg, rgb(0, 110, 255),rgb(241, 186, 196));
+   margin-top: -30px;
+   color: white;
+   border-radius: 10px;
+}
+.appointment-first-colum{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-right: 2px solid gray;
+
+}
+.appointment-img{
+   width: 100px;
+   
+}
+.appointment-title{
+    font-size: 18px;
+    text-align: center;
+    
+}
+.appointment-contact{
+    font-size: 26px;
+    text-align: center;
+    
+}
+.appointment-description{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: rgba(27, 240, 255, 0.979);
+    font-size: 18px;
+    font-weight: bolder;
+}
+.appointment-btn{
+    padding: 15px 35px;
+    border-radius: 25px;
+    border: none;
+    font-size: 12px;
+}
+
+/* appointment section style end */
+
+/* blog section style start */
+.blog{
+   background-image: linear-gradient(45deg,rgb(128, 161, 61),rgb(189, 126, 136));
+
+}
+.blog-sec-item{
+    text-align: center;
+    margin-top: 30px;
+}
+.blog-title{
+    font-size: 50px;
+    padding-top: 20px;
+}
+.blog-description{
+   width: 50%;
+   margin: auto;
+   font-size: 22px;
+   padding: 20px 0;
+}
+.blog-container{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 35px;
+   padding: 30px;
+    gap: 5px;
+}
+.card{
+  width: 350px;
+  height: 430px;
+  box-shadow: 4px 4px 8px rgb(252, 247, 247);
+  border-radius: 10px;
+  text-align: center;
+  background-image: linear-gradient(65deg ,rgb(0, 217, 255),rgb(190, 233, 92));
+}
+.card-img{
+  width: 100%;
+  
+}
+.card-title{
+  font-size: 24px;
+  margin: 20px;
+  color: rgb(32, 87, 69);
+  
+}
+.card-description{
+   font-size: 18px;
+   color: rgb(86, 100, 34);
+}
+/* blog section style end */
